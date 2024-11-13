@@ -1,0 +1,55 @@
+<! DOCTYPE html» 
+<html> 
+  <head> 
+    <link rel="stylesheet" href="survey.css"> 
+    <title>BSIT Student Survey</title> 
+    </head> 
+
+    <body> 
+      <h1 id="title">BSIT Student Survey</title> 
+      <p id="description">Thank you very much for your cooperation in my survey
+</p> 
+
+      <form id="survey-form"> 
+        <fieldset> 
+        <label id="name-label">Name <input id="name" type="text" required placeholder="Enter your name"></label>
+        <label id="number-label">Current Year <input id="number" type="number" min="1" max="100" placeholder="Year"> 
+        <label id="email-label">Email <input id="email" type="email" required placeholder="Enter your email"> 
+        <label id="number-label">Age (optional) <input id="number" type="number" min="18" max="100" placeholder="Age"> 
+        </fieldset>
+
+        
+         <fieldset> 
+           <label for="dropdown">Major: <select id="dropdown"></Label>
+            <option>Select your major</option> 
+            <option>WEB TRACK</option> 
+            <option>ERP</option> 
+            <option>NET SEC</option> 
+
+            </select> 
+            </fieldset> 
+            
+
+            <fieldset> 
+              <label>Which subject has been the most difficult for you so far?</label> 
+              <label for="CIT6">CIT6<input type="checkbox" value="1"></label> 
+              <label for="CIT7">CIT7<input type="checkbox" value="2"></label>
+              <label for="CIT8">CIT8<input type="checkbox" value="3"></label>
+              <label id="other-label">Other <input id="other" type="text" required placeholder="Enter the name of subject"></label>
+
+               </fieldset> 
+               
+           <fieldset> <label for="Yes"><input type="radio" value="yes" name="recommend"> Yes</label>
+            <label for="No"><input type="radio" value="no" name="recommend"> No</Label>  
+               
+               </fieldset> 
+               
+               
+               <textarea placeholder="Enter your suggestions here..."></textarea>
+               
+                <button type="submit" id="submit ">Submit </button> 
+                </form> 
+                </fieldset> 
+                
+                </body> 
+                <html>
